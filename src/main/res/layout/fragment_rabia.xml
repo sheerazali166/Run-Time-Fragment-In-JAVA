@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RabiaFragment"
+    android:background="@color/blue">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Rabia Fragment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/rabia_textView"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/go_tehreen_fragment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Tehreen Fragment"
+        android:layout_marginTop="130dp"
+        android:backgroundTint="#FF5722"
+        android:layout_marginHorizontal="60dp"
+        >
+
+    </Button>
+
+</FrameLayout>
